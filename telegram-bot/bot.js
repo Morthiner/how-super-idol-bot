@@ -19,7 +19,7 @@ bot.on('message', (msg) => {
     const mensagemUsuario = msg.text
     console.log(msg, chatId)
 
-    if(mensagemUsuario == "/superidol@HowSuperIdol_bot"){
+    if(mensagemUsuario == "/superidol@HowSuperIdol_bot" || "/superidol"){
         bot.sendMessage(chatId, 'You are ' + random_item(items) + ' super idol!!')
     } 
    
